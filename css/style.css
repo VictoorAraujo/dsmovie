@@ -51,6 +51,7 @@ header {
 a, a:hover {
     text-decoration: none;
     color: unset;
+    padding-right: 10px;
 }
 
 .dsmovie-contact-container {
@@ -81,18 +82,22 @@ a, a:hover {
 
 .dsmovie-card-description {
     background-color: var(--white);
-    padding: 0px 0 20px 0;
+    padding: 10px 20px 20px 20px;
     display: flex;
     flex-direction: column;background-color: var(--white);
     align-items: center;
+    justify-content: space-between;
     border-radius: 8px 8px 8px 8px;
-    
+    min-height: 100px;
+       
 }
 
 .dsmovie-card-description h3 {
+    padding-top: 10px;
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 100px;
+    text-align: center
 }
 
 .dsmovie-btn, .dsmovie-btn:hover {
@@ -105,5 +110,11 @@ a, a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 4px;
+    border-radius: 10px;
+}
+
+.dsmovie-form-container {
+    padding: 40px 0;
+    max-width: 480px;
+
 }
